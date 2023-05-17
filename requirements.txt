@@ -1,0 +1,6 @@
+inference-schema==1.4
+azureml-inference-server-http==0.7.6
+azure-ai-ml
+azure-identity
+sentence-transformers==2.2.2
+python-dotenv

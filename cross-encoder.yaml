@@ -1,0 +1,13 @@
+name: mMiniLMv2-L12-H384-v1-infschema
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip:
+    - sentence-transformers==2.2.2
+    - joblib
+    - azureml-inference-server-http==0.7.6
+    - inference-schema==1.4
+    - azure-identity
+    - azure-ai-ml
+    - numpy
